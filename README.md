@@ -29,10 +29,16 @@ Quantifiers:
 
 ```
 *     - 0 or more
-+     - 1 or more
+a*    - 0 or more of a
 ?     - 0 or 1
+a?    - 0 or 1 of a
++     - 1 or more
+a+    - 1 or more of a
 {3}   - Exact number
+a{3}  - Exactly 3 of a
+a{36} - Between 3 and 6 of a
 {3,4} - Range of numbers (minimum, maximum)
+a*?   - Lazy quantifier
 ```
 
 
